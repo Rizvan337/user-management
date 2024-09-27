@@ -1,0 +1,15 @@
+
+       <link rel="stylesheet" href="/styles/userHome.css">
+
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+    <a href="/user/logout">
+        <button class="logout-btn">LOG OUT</button>
+    </a>
+    </div>
+<script>
+    const logoutBtn = document.querySelector('.logout-btn')
+    logoutBtn.addEventListener('click',()=>{
+        window.location.href = '/user/logout';
+    });
+</script>
